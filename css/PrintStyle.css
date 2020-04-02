@@ -1,0 +1,51 @@
+html{
+    font-family: "Times New Roman", serif;
+    font-size: 12pt;
+}
+
+body > header > h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+h2{
+    font-size: 1.3rem;
+}
+
+main > article > h2{
+    font-size: 1.6rem;
+}
+
+body > aside, .menuLink, body > nav{
+    display: none;
+}
+
+.img-size, a{
+    display: none;
+}
+
+#cssmenu{
+    display: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: "a" "b" "c" "d" "e" "f" "g" "h" "o" "z" "y" "w" "x" ;
+}
+
+.text-top{
+    display: none;
+}
+
+.printed{
+    display: none;
+}
+
+p,h1,h2,h3,h4,h5,h6, span,.center,.green{
+    color: black;
+}
+
+
+
+

@@ -1,0 +1,127 @@
+label{
+    vertical-align: top;
+    display: inline-block; /*instead of inline (default)*/
+    min-width: 10em;
+}
+
+label.long{
+    min-width: 8em;
+}
+
+iframe{
+    width: 90%;
+    height: 250px;
+}
+
+textarea {
+    resize: none; /*disables resizability*/
+}
+
+
+
+:required {
+    border: 2px solid black;
+}
+
+:optional {
+    border: 1px solid lightgray;
+}
+
+
+input:invalid, textarea:invalid{
+    border-color: red;
+    /*color: red;*/
+}
+
+:out-of-range{
+    color: red;
+}
+
+/*
+Change
+    input:invalid, textarea:invalid
+to
+    :invalid
+and uncomment
+    color: red;
+to see why the selector
+    :invalid
+cannot be used.
+*/
+
+input:valid{
+    color: darkgreen;
+}
+
+.basicInfo,.privateInfo,.buttonInfo{
+    color: black ;
+    border: black 1px solid;
+    margin: 20px;
+    border-radius: 50px;
+    background: rgba(255, 250, 201, 0.96);
+    padding: 20px;
+}
+
+.basicInfo>input,.basicInfo>span>input{
+    border-radius: 50px;
+    display: inline-block;
+    resize: none;
+    width: 200px;
+    padding: 2px 2px 2px 5px;
+    overflow-x: hidden;
+}
+
+.basicInfo>input.longInput,.basicInfo>span>input.longInput{
+    border-radius: 50px;
+    display: inline-block;
+    resize: none;
+    width: 400px;
+    overflow-x: hidden;
+    padding: 2px 2px 2px 5px;
+    opacity: 100%;
+}
+
+article#Form{
+    background: url("../images/triangles-colorful-background-nz-1920x1080.jpg");
+    background-size: cover;
+    justify-content:center;
+}
+
+
+
+button.green{
+    color: #00bf0c;
+    background-color: transparent;
+    border: 1px solid #00bf0c;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+
+button.red{
+    color: red;
+    background-color: transparent;
+    border: 1px solid red;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+
+.opinionsContainer>section.newComment{
+    color: white ;
+    border: white 1px solid;
+    margin: 20px;
+    border-radius: 50px;
+    background: black;
+    padding: 20px;
+}
+
+
+
+
+
+
