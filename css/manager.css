@@ -93,7 +93,7 @@
 }
 
 .bg-dubai{
-    background-image:url(../images/dubai.jpg);
+    background-image:url(https://i.pinimg.com/originals/de/9e/28/de9e28bebf74e4573edd86f1a4f0d84e.jpg);
     background-position: center center;
     background-size: cover;
     justify-content:center;
@@ -102,7 +102,7 @@
 }
 
 .bg-newyork{
-    background-image:url( ../images/NewYork.jpg);
+    background-image:url(https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIxMTIzfQ&w=1000&q=80);
     background-position: center center;
     background-size: cover;
     justify-content:center;

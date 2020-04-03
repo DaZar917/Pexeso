@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdfa8092-a9d9-46d5-9d46-78d86c8296e3" name="Default Changelist" comment="" />
+    <list default="true" id="cdfa8092-a9d9-46d5-9d46-78d86c8296e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Alps.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Alps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Form.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/TopCities.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/TopCities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/manager.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/manager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/travel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/travel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Alps.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/Vien.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Vien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Slovenia_Winter_Mountains_Forests_Church_Skofja_541632_2560x1440.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Switzerland_Mountains_Scenery_Alps_Clouds_517724_1920x1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Unknown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/myImg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/square-twitter-512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/triangles-colorful-background-nz-1920x1080.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,13 +30,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML4 File" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Y4GGrTZ63IGFAErDCpStRY2VPI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,19 +58,20 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -88,7 +112,8 @@
       <workItem from="1585838735858" duration="2471000" />
       <workItem from="1585845118610" duration="2290000" />
       <workItem from="1585851740645" duration="593000" />
-      <workItem from="1585861563228" duration="239000" />
+      <workItem from="1585861563228" duration="506000" />
+      <workItem from="1585912872721" duration="3006000" />
     </task>
     <servers />
   </component>
@@ -108,11 +133,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="433" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1585272370476" />
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585846655368">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585914229132">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1585846655368" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1585914229132" />
     <state x="458" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.813@0.23.1440.813" timestamp="1582299268120" />
+    <state x="465" y="313" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585914213636">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="465" y="313" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1585914213636" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1582194606735">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

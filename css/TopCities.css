@@ -1,7 +1,7 @@
 html {
-    font-family: sans-serif; /* 1 */
-    -ms-text-size-adjust: 100%; /* 2 */
-    -webkit-text-size-adjust: 100%; /* 2 */
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 
@@ -29,8 +29,8 @@ audio,
 canvas,
 progress,
 video {
-    display: inline-block; /* 1 */
-    vertical-align: baseline; /* 2 */
+    display: inline-block;
+    vertical-align: baseline;
 }
 
 audio:not([controls]) {
@@ -135,9 +135,9 @@ input,
 optgroup,
 select,
 textarea {
-    color: inherit; /* 1 */
-    font: inherit; /* 2 */
-    margin: 0; /* 3 */
+    color: inherit;
+    font: inherit;
+    margin: 0;
 }
 
 
@@ -151,11 +151,11 @@ select {
 }
 
 button,
-html input[type="button"], /* 1 */
+html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-    -webkit-appearance: button; /* 2 */
-    cursor: pointer; /* 3 */
+    -webkit-appearance: button;
+    cursor: pointer;
 }
 
 button[disabled],
@@ -178,8 +178,8 @@ input {
 
 input[type="checkbox"],
 input[type="radio"] {
-    box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
+    box-sizing: border-box;
+    padding: 0;
 }
 
 
@@ -191,8 +191,8 @@ input[type="number"]::-webkit-outer-spin-button {
 
 
 input[type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    box-sizing: content-box; /* 2 */
+    -webkit-appearance: textfield;
+    box-sizing: content-box;
 }
 
 
@@ -211,8 +211,8 @@ fieldset {
 
 
 legend {
-    border: 0; /* 1 */
-    padding: 0; /* 2 */
+    border: 0;
+    padding: 0;
 }
 
 
@@ -275,9 +275,9 @@ span{
 html {
     font-size: 100%;
     font-family: "Tw Cen MT", Arial, Helvetica, sans-serif;
-    font-style: normal; /*normal, italic, oblique (obl.-similar to italic*/
-    font-weight: normal; /*normal, bold*/
-    text-align: justify; /*justify, left, right, center*/
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
     color: black;
 }
 
@@ -478,7 +478,7 @@ body > aside{
     }
 
     body > footer{
-        order: 1; /*aby bol posledny. Ostatne maju implicitne hodnotu 0, tzn. sa zobrazia podla poradia v html*/
+        order: 1;
     }
 
     .img-size{

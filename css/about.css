@@ -515,13 +515,13 @@ html, body {
 body {
     font: 14px/25px Arial, Helvetica, sans-serif;
     font-family: 'Open Sans', sans-serif;
-    background: url("../images/triangles-colorful-background-nz-1920x1080.jpg");
+    background: url(https://images.hdqwalls.com/download/triangles-colorful-background-nz-1920x1080.jpg);
 }
 
 
 
 .bgc{
-    background: url("../images/triangles-colorful-background-nz-1920x1080.jpg");
+    background: url(https://images.hdqwalls.com/download/triangles-colorful-background-nz-1920x1080.jpg);
 }
 
 
@@ -749,7 +749,7 @@ article.art-content ol {
 
 article.entry-title {
     text-align: center;
-    background: url(../images/triangles-colorful-background-nz-1920x1080.jpg) no-repeat center center;
+    background: url(https://images.hdqwalls.com/download/triangles-colorful-background-nz-1920x1080.jpg) no-repeat center center;
     min-height: 250px;
     padding-top: 100px;
 }
