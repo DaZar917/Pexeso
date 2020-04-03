@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdfa8092-a9d9-46d5-9d46-78d86c8296e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Alps.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Alps.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Form.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/TopCities.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/TopCities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/manager.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/manager.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/travel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/travel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Alps.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Alps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Travel.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Vien.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Vien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/manager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Slovenia_Winter_Mountains_Forests_Church_Skofja_541632_2560x1440.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Switzerland_Mountains_Scenery_Alps_Clouds_517724_1920x1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Unknown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/myImg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/square-twitter-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/triangles-colorful-background-nz-1920x1080.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="cdfa8092-a9d9-46d5-9d46-78d86c8296e3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,12 +94,24 @@
       <workItem from="1585845118610" duration="2290000" />
       <workItem from="1585851740645" duration="593000" />
       <workItem from="1585861563228" duration="506000" />
-      <workItem from="1585912872721" duration="3006000" />
+      <workItem from="1585912872721" duration="3088000" />
     </task>
+    <task id="LOCAL-00001" summary="com">
+      <created>1585917221514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585917221514</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="com" />
+    <option name="LAST_COMMIT_MESSAGE" value="com" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="115" key="#Inspections" timestamp="1585268768299">
@@ -142,10 +135,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="465" y="313" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1585914213636" />
+    <state x="234" y="52" key="CommitChangelistDialog2" timestamp="1585917221134">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="234" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585917221134" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1582194606735">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582194606735" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1585917227729">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585917227729" />
     <state x="385" y="210" key="run.anything.popup" timestamp="1585663208487">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
