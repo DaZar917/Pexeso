@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdfa8092-a9d9-46d5-9d46-78d86c8296e3" name="Default Changelist" comment="" />
+    <list default="true" id="cdfa8092-a9d9-46d5-9d46-78d86c8296e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Form.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/TopCities.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/TopCities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/TopCities.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/TopCities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/comments.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,8 +19,8 @@
       <list>
         <option value="HTML4 File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -24,14 +31,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -44,13 +50,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -94,7 +101,21 @@
       <workItem from="1585845118610" duration="2290000" />
       <workItem from="1585851740645" duration="593000" />
       <workItem from="1585861563228" duration="506000" />
-      <workItem from="1585912872721" duration="3088000" />
+      <workItem from="1585912872721" duration="3778000" />
+      <workItem from="1586429187693" duration="859000" />
+      <workItem from="1586468109868" duration="326000" />
+      <workItem from="1586501784496" duration="821000" />
+      <workItem from="1586947086858" duration="331000" />
+      <workItem from="1587565504801" duration="433000" />
+      <workItem from="1587663844614" duration="412000" />
+      <workItem from="1587665200202" duration="735000" />
+      <workItem from="1587993719543" duration="149000" />
+      <workItem from="1588082291797" duration="339000" />
+      <workItem from="1588152104627" duration="5480000" />
+      <workItem from="1588241134785" duration="11587000" />
+      <workItem from="1588433084283" duration="106000" />
+      <workItem from="1588625622011" duration="107000" />
+      <workItem from="1588701297840" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="com">
       <created>1585917221514</created>
@@ -103,11 +124,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585917221514</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="com">
+      <created>1585917287605</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585917287605</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="com" />
@@ -135,25 +163,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="465" y="313" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1585914213636" />
-    <state x="234" y="52" key="CommitChangelistDialog2" timestamp="1585917221134">
+    <state x="234" y="52" key="CommitChangelistDialog2" timestamp="1585917287455">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="234" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585917221134" />
+    <state x="234" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585917287455" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1582194606735">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582194606735" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1585917227729">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1585917297068">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585917227729" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585917297068" />
     <state x="385" y="210" key="run.anything.popup" timestamp="1585663208487">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1585663208487" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1585100596003">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1588334984313">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1585100596003" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1588334984313" />
   </component>
 </project>

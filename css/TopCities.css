@@ -234,12 +234,44 @@ th {
     padding: 0;
 }
 
+a.yellow{
+    width: 40%;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
 a.red{
     width: 40%;
     text-decoration: none;
     color: white;
     background-color: transparent;
-    border: 1px solid orange;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+a.green{
+    width: 40%;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+a.gray{
+    width: 40%;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 1px solid gray;
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 20px;
@@ -267,6 +299,8 @@ a:hover {
     color: #169400;
 }
 
+
+
 span{
     color: blue;
 }
@@ -280,6 +314,8 @@ html {
     text-align: justify;
     color: black;
 }
+
+
 
 a:link, a:visited{
     text-decoration: none;
@@ -622,6 +658,8 @@ body > aside{
     -webkit-animation: 0.5s draw linear forwards;
     animation: 0.5s draw linear forwards;
 }
+
+
 
 
 
