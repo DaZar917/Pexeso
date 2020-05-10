@@ -1,8 +1,3 @@
-/*
- * Created by Stefan Korecko, 2020
- * Dropdown menu functionality
- */
-
 
 document.addEventListener("click",
     function(event){
@@ -10,7 +5,6 @@ document.addEventListener("click",
     }
 );
 
-//--------------------------------------------------------------------------------
 
 function displayOrHideMenu(){
     document.getElementById("menuIts").classList.toggle("mnShow");

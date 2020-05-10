@@ -1,15 +1,7 @@
-/*
- * Created by Stefan Korecko, 2020
- * Form processing functionality
- */
-
 
 function processOpnFrmData(event){
-    //1.prevent normal event (form sending) processing
-    event.preventDefault();
-
-    //2. Read and adjust data from the form (here we remove white spaces before and after the strings)
-    const nopName = document.getElementById("fname").value.trim();
+ event.preventDefault();
+  const nopName = document.getElementById("fname").value.trim();
     const noSurname = document.getElementById("sname").value.trim();
     const noEmail = document.getElementById("email").value.trim();
     const noImg = document.getElementById("limg").value.trim();
@@ -25,13 +17,11 @@ function processOpnFrmData(event){
 
     const nopWillReturn = document.getElementById("willReturnElm").checked;
 
-    //3. Verify the data
     if(nopName===""|| noSurname==="" || noComment==="" || noSurname===""){
         window.alert("Please, enter both your name and opinion");
         return;
     }
 
-    //3. Add the data to the array opinions and local storage
     const newOpinion =
         {
             name: nopName,
@@ -62,7 +52,7 @@ function processOpnFrmData(event){
     console.log("New opinion:\n "+JSON.stringify(newOpinion));
     console.log(opinions);
 
-    //5. Go to the opinions
+
     window.location.hash="#Comments";
 
 }

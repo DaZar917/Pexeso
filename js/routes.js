@@ -85,7 +85,6 @@ function createHtml4opinions(targetElm){
     );
 }
 
-
 function fetchAndDisplayArticles(targetElm, offsetFromHash, totalCountFromHash){
 
     const offset=Number(offsetFromHash);
@@ -126,6 +125,11 @@ function fetchAndDisplayArticles(targetElm, offsetFromHash, totalCountFromHash){
                 );
         });
 }
+
+
+
+
+
 function addArtDetailLink2ResponseJson(responseJSON){
     responseJSON.articles =
         responseJSON.articles.map(
@@ -143,18 +147,7 @@ function fetchAndDisplayArticleDetail(targetElm, artIdFromHash, offsetFromHash, 
 }
 
 
-/**
- * Gets an article record from a server and processes it to html according to the value of the forEdit parameter.
- * Assumes existence of the urlBase global variable with the base of the server url (e.g. "https://wt.kpi.fei.tuke.sk/api"),
- * availability of the Mustache.render() function and Mustache templates with id="template-article" (if forEdit=false)
- * and id="template-article-form" (if forEdit=true).
- * @param targetElm - element to which the acquired article record will be rendered using the corresponding template
- * @param artIdFromHash - id of the article to be acquired
- * @param offsetFromHash - current offset of the article list display to which the user should return
- * @param totalCountFromHash - total number of articles on the server
- * @param forEdit - if false, the function renders the article to HTML using the template-article for display.
- *                  If true, it renders using template-article-form for editing.
- */
+
 function fetchAndProcessArticle(targetElm, artIdFromHash, offsetFromHash, totalCountFromHash,forEdit) {
     const url = `${urlBase}/article/${artIdFromHash}`;
 
@@ -172,7 +165,7 @@ function fetchAndProcessArticle(targetElm, artIdFromHash, offsetFromHash, totalC
             if(forEdit){
                 responseJSON.formTitle="Article Edit";
                 responseJSON.formSubmitCall =
-                    `processArtEditFrmData(event,${artIdFromHash},${offsetFromHash},${totalCountFromHash},'${urlBase}')`;
+                    `processArtEditFrmData(event,${artIdFromHash},${offsetFromHash},${totalCountFromHash},'${urlBase}','PUT')`;
                 responseJSON.submitBtTitle="Save article";
                 responseJSON.urlBase=urlBase;
 
@@ -188,6 +181,7 @@ function fetchAndProcessArticle(targetElm, artIdFromHash, offsetFromHash, totalC
                 responseJSON.backLink=`#articles/${offsetFromHash}/${totalCountFromHash}`;
                 responseJSON.editLink=`#artEdit/${responseJSON.id}/${offsetFromHash}/${totalCountFromHash}`;
                 responseJSON.deleteLink=`#artDelete/${responseJSON.id}/${offsetFromHash}/${totalCountFromHash}`;
+
 
                 document.getElementById(targetElm).innerHTML =
                     Mustache.render(
@@ -207,6 +201,10 @@ function fetchAndProcessArticle(targetElm, artIdFromHash, offsetFromHash, totalC
         });
 
 }
+
+
+
+
 function editArticle(targetElm, artIdFromHash, offsetFromHash, totalCountFromHash) {
     fetchAndProcessArticle(...arguments,true);
 }

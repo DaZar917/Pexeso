@@ -1,6 +1,4 @@
-/*
- * Created by Stefan Korecko, 2020
- */
+
 
 
 export default class ParamHashRouter {
@@ -26,11 +24,7 @@ export default class ParamHashRouter {
         matchingRoute.getTemplate(matchingRoute.target,...hashParts);
       }
 
-      /*
-        here we do nothing if the matching route is not found.
-        This allows other fragments that we do not want to be  processed by the router to work as usual.
-        Otherwise ()
-       */
+
     }
   }
 
