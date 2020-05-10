@@ -94,7 +94,16 @@ function noimg(img) {
     return img;
 }
 
-
+function deleteOldData() {
+    let k=0;
+    for (let i = 0; i < comments.length; i++ )
+        if (Date.now() - new Date(comments[i].created) > 84600000 )
+            k=i;
+    comments.splice(0,k);
+    localStorage.myTreesComments = JSON.stringify(comments);
+    commentsElm.innerHTML=commentArray2html(comments);
+    window.alert('old data has been deleted')
+}
 
 function comment2html(comment){
     const commentView ={

@@ -28,6 +28,7 @@
             <a style="border-radius: 5px; padding-left: 5px" href="#Form">Form</a>
             <a style="border-radius: 5px; padding-left: 5px" href="#Comments">Comments</a>
             <a style="border-radius: 5px; padding-left: 5px" href="#articles">Articles</a>
+            <a style="border-radius: 5px; padding-left: 5px" href="#artInsert">Add article</a>
         </nav>
 
     </div>
@@ -440,10 +441,10 @@
         <h2>{{formTitle}}</h2>
         <br><br>
 
-        <form id="articleForm" onsubmit="return formSubmitCall">
+        <form id="articleForm" onsubmit="return {{formSubmitCall}}">
             <div class="basicInfo">
             <label for="author"><span>Author:</span></label>
-            <input type="text" name="author" id="author" value="{{author}}" size="50" title="Article author, max. length 100 characters." maxlength="100" placeholder="e.g. Ján Trieska" />
+            <input type="text" name="author" id="author" value="{{author}}" size="50" title="Article author, max. length 100 characters." maxlength="100" placeholder="e.g. Yaroslav Melnychyn" />
             <br>
                 <label for="title"><span>Title:</span></label>
             <input type="text" name="title" id="title" value="{{title}}" size="50"  maxlength="100" pattern="\S[\S\s]*" required title="Article title, mandatory item, max. length: 100 characters, the first character must not be a space." placeholder="e.g. My story." />

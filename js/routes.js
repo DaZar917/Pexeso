@@ -55,7 +55,13 @@ export default[
         hash:"artDelete",
         target:"router-view",
         getTemplate: deleteArticle
+    },
+    {
+        hash:"artInsert",
+        target:"router-view",
+        getTemplate: addNewArticle
     }
+
 
 ];
 const urlBase = "https://wt.kpi.fei.tuke.sk/api";
@@ -205,7 +211,64 @@ function editArticle(targetElm, artIdFromHash, offsetFromHash, totalCountFromHas
     fetchAndProcessArticle(...arguments,true);
 }
 
-function deleteArticle(targetElm, artIdFromHash, offsetFromHash, totalCountFromHash) {
-    fetchAndProcessArticle(...arguments,false);
-}
+function deleteArticle(targetElm, artIdFromHash) {
 
+    const outpElm = document.getElementById(targetElm);
+
+
+    const deleteReqSettings = //an object wih settings of the request
+        {
+            method: 'DELETE'
+        };
+
+
+    fetch(`${urlBase}/article/${artIdFromHash}`, deleteReqSettings)  //now we need the second parameter, an object wih settings of the request.
+        .then(response => {      //fetch promise fullfilled (operation completed successfully)
+            if (response.ok) {    //successful execution includes an error response from the server. So we have to check the return status of the response here.
+                outpElm.innerHTML += `Article successfully deleted.`; //no response this time, so we end here
+            } else { //if we get server error
+                return Promise.reject(new Error(`Server answered with ${response.status}: ${response.statusText}.`)); //we return a rejected promise to be catched later
+            }
+        })
+        .catch(error => { ////here we process all the failed promises
+            outpElm.innerHTML += `Attempt failed. Details: <br />  ${error}`;
+        });
+}
+function addNewArticle(targetElm, artIdFromHash, offsetFromHash, totalCountFromHash) {
+    const url = `${urlBase}/article`;
+
+    fetch(url)
+        .then(response =>{
+            if(response.ok){
+                return response.json();
+            }else{ //if we get server error
+                return Promise.reject(new Error(`Server answered with ${response.status}: ${response.statusText}.`));
+            }
+        })
+        .then(responseJSON => {
+            const total = responseJSON.meta.totalCount;
+            const offset = Math.round(total/articlesPerPage-1)*articlesPerPage+1;
+            responseJSON.formTitle = "Article Insert";
+            responseJSON.formSubmitCall =
+                `processArtEditFrmData(event,${artIdFromHash},${offset},${total},'${urlBase}','POST')`;
+            responseJSON.submitBtTitle = "Save article";
+            responseJSON.urlBase = urlBase;
+
+            responseJSON.addLink = `#artInsert/${offset}/${total}`;
+            document.getElementById(targetElm).innerHTML =
+                Mustache.render(
+                    document.getElementById("template-article-form").innerHTML,
+                    responseJSON
+                );
+        })
+
+        .catch (error => { ////here we process all the failed promises
+            const errMsgObj = {errMessage:error};
+            document.getElementById(targetElm).innerHTML =
+                Mustache.render(
+                    document.getElementById("template-articles-error").innerHTML,
+                    errMsgObj
+                );
+        });
+
+}
