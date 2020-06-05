@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        body {
+            background: url("https://i.pinimg.com/originals/49/f6/c2/49f6c2a2b4b652beac28196a642fa6e3.jpg");
+            background-size: cover;
+            justify-content: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;
+            display: block;
+        }
+
+        h1 {
+            font-family: Brush Script MT, Brush Script Std, cursive;
+            font-size: 100px;
+        }
+
+        li {
+            font-family: Marker Felt, fantasy;
+        }
+
+        div {
+            color: #ff0000;
+            padding: 40px;
+            margin: 20px;
+            border-radius: 30px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        hr {
+            height: 30px;
+            border-style: solid;
+            border-color: #ff0000;
+            border-width: 1px 0 0 0;
+            border-radius: 100px;
+            width:60%
+        }
+
+            hr:before {
+                display: block;
+                content: "";
+                height: 30px;
+                margin-top: -31px;
+                border-style: solid;
+                border-color: #ff0000;
+                border-width: 0 0 1px 0;
+                border-radius: 100px;
+                width: 60%
+            }
+
+        a {
+            font-size: 40px;
+        }
+
+        .s13 {
+            color: black;
+            line-height: 1.2;
+            position: relative;
+            padding: 0 14px;
+            text-transform: uppercase;
+            border-radius: 10px;
+        }
+
+            .s13:after {
+                content: "";
+                height: 100%;
+                min-width: 4px;
+                background: #897536;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                transition: .5s;
+                border-radius: 10px;
+            }
+
+            .s13:hover:after {
+                min-width: 100%;
+                background: #897536;
+                opacity: .35;
+                border-radius: 10px;
+            }
+
+        li {
+            list-style-type: none; 
+        }
+    </style>
+
+</head>
+<body>
+
+    <div>
+        <h1>Welcome to Pexeso</h1>
+        <hr>
+        <ul class="rectangle">
+            <li><a href="../Pexeso/AddPlayer" class="s13">Single player mode</a></li>
+            <li><a asp-controller="Pexeso" asp-action="AddTwoPlayer" class="s13">Multi player mode</a></li>
+            <li><a href="../Pexeso/TopScores" class="s13">Top scores</a></li>
+            <li><a href="../Pexeso/Comments" class="s13">Comments</a></li>
+            <li><a href="../Pexeso/AddComments" class="s13">Add comment</a></li>
+            <li><a href="../Pexeso/About" class="s13">Rules</a></li>
+        </ul>
+
+
+
+
+
+    </div>
+</body>
+</html>
+

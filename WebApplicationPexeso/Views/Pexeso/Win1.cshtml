@@ -1,0 +1,131 @@
+﻿@{
+    ViewData["Title"] = "Win2";
+}
+
+
+<style>
+
+
+
+
+    button {
+        background: none;
+        font-weight: bold;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        text-align: center;
+        border: 0;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+    }
+
+        button.yellow:hover {
+            color: yellow;
+        }
+
+
+    body {
+        background-image: url("../images/Win.jpg");
+        background-size: cover;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    a {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: white;
+        text-decoration: none;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        background: none;
+        background-color: none;
+        text-decoration:none
+    }
+
+
+
+        a.yellow:hover {
+            color: yellow;
+            background: none;
+            background-color: none;
+
+        }
+
+        a.red:hover {
+            color: red;
+            background: none;
+            background-color: none;
+        }
+
+
+    li {
+        list-style-type: none;
+    }
+
+    h1 {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: white;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-areas: "c c" "a b"
+    }
+
+    .tabl {
+        grid-area: a;
+        text-align: center;
+    }
+
+    .rules {
+        grid-area: b;
+        text-align: center;
+        margin: auto;
+    }
+
+    .header {
+        grid-area: c;
+        text-align: center;
+    }
+
+    .foot {
+        text-align: center;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    li {
+        font-family: Marker Felt, fantasy;
+        color: white;
+    }
+
+    li {
+        list-style-type: none;
+        font-size: 20px;
+    }
+    #EndGame {
+        padding-top: 20%;
+    }
+
+    span {
+        color: blue;
+    }
+</style>
+
+<div id="EndGame" class="row">
+    <div class="col" style="top:0;">
+        <div><h1>You Win</h1></div>
+        <div><a asp-controller="Pexeso" asp-action="AddTwoPlayer" class="yellow"><h2>Restart</h2></a></div>
+        <div><a asp-controller="Home" asp-action="Index" class="yellow"><h2>Exit</h2></a></div>
+    </div>
+</div>

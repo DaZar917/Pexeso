@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewData["Title"] = "TopScores";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background: url("http://getwallpapers.com/wallpaper/full/c/2/5/361578.jpg");
+            background-size: cover;
+            justify-content: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;
+            display: block;
+        }
+
+        h1 {
+            font-family: Brush Script MT, Brush Script Std, cursive;
+            font-size: 100px;
+        }
+
+        li {
+            font-family: Marker Felt, fantasy;
+        }
+
+        div {
+            color: #ffffff;
+            padding: 40px;
+            margin: 20px;
+            border-radius: 30px;
+            justify-content: center;
+            text-align: center;
+        }
+
+        hr {
+            height: 30px;
+            border-style: solid;
+            border-color: #ffffff;
+            border-width: 1px 0 0 0;
+            border-radius: 20px;
+            width: 60%;
+        }
+
+            hr:before {
+                display: block;
+                content: "";
+                height: 30px;
+                margin-top: -31px;
+                border-style: solid;
+                border-color: #ffffff;
+                border-width: 0 0 1px 0;
+                border-radius: 20px;
+                width: 60%;
+            }
+
+        a {
+            font-size: 40px;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>Top scores</h1>
+        <hr>
+       
+            <ol>
+                @foreach (var score in Model.Times)
+                {
+                    <li>@(score.Player) @(score.TimeInSeconds)</li>
+                }
+            </ol>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a href="../Home/Index">Back</a>
+       
+
+    </div>
+
+</body>
+</html>
+

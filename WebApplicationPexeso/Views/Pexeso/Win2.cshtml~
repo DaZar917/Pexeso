@@ -1,0 +1,155 @@
+﻿@{
+    ViewData["Title"] = "Win1";
+}
+
+
+<style>
+
+
+
+    body {
+        background-image: url("../images/wp.jpg");
+        background-size: cover;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+        display: block;
+    }
+
+    a.red, a.yellow {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: white;
+        text-decoration: none;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+
+
+        a.yellow:hover {
+            color: yellow;
+        }
+
+        a.red:hover {
+            color: red;
+        }
+
+
+    li {
+        list-style-type: none;
+    }
+
+    h1 {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: white;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-areas: "c c" "a b"
+    }
+
+    .tabl {
+        grid-area: a;
+        text-align: center;
+    }
+
+    .rules {
+        grid-area: b;
+        text-align: center;
+        margin: auto;
+    }
+
+    .header {
+        grid-area: c;
+        text-align: center;
+    }
+
+    .foot {
+        text-align: center;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    li {
+        font-family: Marker Felt, fantasy;
+        color: white;
+    }
+
+    li {
+        list-style-type: none;
+        font-size: 20px;
+    }
+
+    span {
+        color: blue;
+    }
+</style>
+
+
+<div class="header">
+    <h1>Welcome to the Pexeso,<span> @Model.Field.player.Name </span></h1>
+</div>
+<br />
+
+
+<div class="grid">
+    <div class="tabl">
+
+        <br><br>
+        <table class="field">
+
+
+            @for (var row = 0; row < Model.Field.MapSize; row++)
+            {
+                <tr>
+                    @for (var column = 0; column < Model.Field.MapSize; column++)
+                    {
+                        var tile = Model.Field.Cells[row, column];
+
+                        <td>
+                            <a asp-area=""
+                               asp-controller="Pexeso"
+                               asp-action="NewMove"
+                               asp-route-x="@row"
+                               asp-route-y="@column">
+                                <img src="~/images/cards@(Model.Field.player.Print)/img@((int)tile.Value-65).jpg" style="width: 80px; height: 130px; border-radius: 10px; border: 1px solid black;" />
+                            </a>
+
+                        </td>
+                    }
+                </tr>
+            }
+
+
+
+        </table>
+
+    </div>
+
+    <div class="rules">
+        <br>
+        <h1>Rules</h1>
+        <ul class="rectangle">
+            <li>If you want to select a map, just click on it.</li>
+            <li>In order to select the map, you need to click on it.</li>
+            <li>If you want to confirm the selection, click on any of the cards in the field.</li>
+            <li>Keep playing until all the cards are turned over.</li>
+            <li>To end the game, click on the card on which you finished your choice.</li>
+        </ul>
+
+    </div>
+</div>
+<div class="foot">
+    <a href="/Pexeso/AddPlayer" class="yellow">New Game</a>
+    <a href="../Home/Index" class="red">Exit</a>
+</div>
+<br />
+
+

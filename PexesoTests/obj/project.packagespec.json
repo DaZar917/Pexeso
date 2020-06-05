@@ -1,0 +1,67 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/yaroslav/Desktop/DotNet/pexeso/PexesoTests/PexesoTests.csproj",
+    "projectName": "PexesoTests",
+    "projectPath": "/Users/yaroslav/Desktop/DotNet/pexeso/PexesoTests/PexesoTests.csproj",
+    "outputPath": "/Users/yaroslav/Desktop/DotNet/pexeso/PexesoTests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/Pexeso.csproj": {
+            "projectPath": "/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/Pexeso.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.4.0, )"
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.15.1, )"
+        },
+        "nunit": {
+          "target": "Package",
+          "version": "[3.12.0, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+    }
+  }
+}

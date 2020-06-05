@@ -1,0 +1,217 @@
+﻿
+@{
+    ViewData["Title"] = "AddComments";
+}
+
+
+
+<style>
+
+
+body { background: url("../images/commentBack.jpg"); background-size: cover; justify-content: center; background-repeat: no-repeat; background-attachment: fixed; position: relative; display: block; }
+
+    a {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: white;
+        text-decoration: none;
+        font-size: 50px;
+    }
+
+        a:hover {
+            color: yellow;
+        }
+
+
+    h1 {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: white;
+        font-size: 70px;
+        text-align: center;
+    }
+
+    div {
+        text-align: center;
+    }
+
+    button {
+        background: none;
+        margin: 10px;
+        padding: 5px;
+        font-weight: bold;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        text-align: center;
+        border: 0;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+    }
+
+        button.yellow:hover {
+            color: yellow;
+        }
+
+        button.red:hover {
+            color: red;
+        }
+
+    button {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: white;
+        text-decoration: none;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .row {
+        text-align: center;
+        justify-content: center;
+    }
+
+    label {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+    }
+
+    input {
+        opacity: 0.7;
+        border-radius: 20px;
+    }
+
+    textarea {
+        opacity: 0.7;
+        border-radius: 20px;
+    }
+
+    #reviewStars-input input:checked ~ label, #reviewStars-input label, #reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+        background: url('http://positivecrash.com/wp-content/uploads/ico-s71a7fdede6.png') no-repeat;
+    }
+
+    #reviewStars-input {
+        overflow: hidden;
+        *zoom: 1;
+        position: center;
+        float: left;
+    }
+
+    #reviewStars-input {
+        text-align: center;
+    }
+
+        #reviewStars-input input {
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+            opacity: 0;
+            width: 43px;
+            height: 40px;
+            position: center;
+            top: 0;
+            z-index: 0;
+        }
+
+            #reviewStars-input input:checked ~ label {
+                background-position: 0 -40px;
+                height: 40px;
+                width: 43px;
+            }
+
+        #reviewStars-input label {
+            background-position: 0 0;
+            height: 40px;
+            width: 43px;
+            float: right;
+            cursor: pointer;
+            margin-right: 10px;
+            position: relative;
+            z-index: 1;
+        }
+
+            #reviewStars-input label:hover, #reviewStars-input label:hover ~ label {
+                background-position: 0 -40px;
+                height: 40px;
+                width: 43px;
+            }
+
+        #reviewStars-input #star-0 {
+            left: 0px;
+        }
+
+        #reviewStars-input #star-1 {
+            left: 53px;
+        }
+
+        #reviewStars-input #star-2 {
+            left: 106px;
+        }
+
+        #reviewStars-input #star-3 {
+            left: 159px;
+        }
+
+        #reviewStars-input #star-4 {
+            left: 212px;
+        }
+</style>
+
+
+<script src="~/js/JavaScript.js"></script>
+
+<br><br><br><br>
+
+<h1>AddComments</h1>
+<body>
+    <div id="LeaveComment">
+        <div class="container justify-content-between">
+            <div>
+                <form name="CommentarForm" action="" onsubmit="return validateForm()" method="post">
+                    <div class="row">
+                        <div class="col"><h5><label for="NameComment">Name : </label><input id="NameComment" placeholder="Your name" class="InputForm" name="name"></h5></div>
+                    </div>
+                    <br>
+
+
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col">
+                            <h5>
+                                <label title="comment" for="comment">Your comment:  </label><br>
+                                <textarea name="comment" id="comment" cols="64" rows="6" placeholder="Comment" class="InputForm"> </textarea>
+                            </h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div id="reviewStars-input">
+                                <input class="radio-input" id="star-4" type="radio" name="reviewStars" value="5" />
+                                <label class="radio-label" title="gorgeous" for="star-4"></label>
+
+                                <input class="radio-input" id="star-3" type="radio" name="reviewStars" value="4" />
+                                <label class="radio-label" title="good" for="star-3"></label>
+
+                                <input class="radio-input" id="star-2" type="radio" name="reviewStars" value="3" />
+                                <label class="radio-label" title="regular" for="star-2"></label>
+
+                                <input class="radio-input" id="star-1" type="radio" name="reviewStars" value="2" />
+                                <label class="radio-label" title="poor" for="star-1"></label>
+
+                                <input class="radio-input" id="star-0" type="radio" name="reviewStars" value="1" />
+                                <label class="radio-label" title="bad" for="star-0"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col">
+                            <button type="submit" class="CommentButton yellow" id="SubmitButton">Submit</button>
+                        </div>
+                        <div class="col">
+                            <button class="red" asp-controller="Home" asp-action="Index" id="ExitButton">Exit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

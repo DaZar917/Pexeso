@@ -1,0 +1,24 @@
+﻿using System;
+namespace Pexeso.PexesoCore.Core
+{
+    public class MultiPlayer
+    {
+        public String FName { get; set; }
+        public String SName { get; set; }
+        public int Print { get; set; }
+        public int Size { get; set; }
+
+        public MultiPlayer(string fname,string sname, int print, int size)
+        {
+            FName = fname;
+            SName = sname;
+            Print = print;
+            Size = size;
+        }
+
+        public MultiPlayer()
+        {
+
+        }
+    }
+}

@@ -1,0 +1,143 @@
+﻿
+@{
+    ViewData["Title"] = "Comments";
+}
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background: url("https://img3.akspic.ru/image/139825-dzhoker-igri-igralnaya_karta-bumaga-tekst-3840x2160.jpg");
+            background-size: cover;
+            justify-content: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;
+            display: block;
+        }
+
+        h1 {
+            font-family: Brush Script MT, Brush Script Std, cursive;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+
+
+
+        div.red, div.green, div.blue {
+            color: white;
+            border: 1px solid #929259;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-areas: "a b" "c c"
+        }
+
+        .red {
+            grid-area: a;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .green {
+            grid-area: b;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .blue {
+            grid-area: c;
+            text-align: center;
+            font-size: 30px;
+        }
+
+
+
+        a {
+            color: red;
+            background-color: transparent;
+            border: 1px solid red;
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 5px 10px;
+            font-size: 30px;
+        }
+
+        span {
+            color: blue;
+            font-size: 40px;
+        }
+
+        hr {
+            height: 30px;
+            border-style: solid;
+            border-color: #ff0000;
+            border-width: 1px 0 0 0;
+            border-radius: 20px;
+        }
+
+        span {
+            color: blue;
+        }
+
+        hr:before {
+            display: block;
+            content: "";
+            height: 30px;
+            margin-top: -31px;
+            border-style: solid;
+            border-color: #ff0000;
+            border-width: 0 0 1px 0;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="grid">
+        <div class="red">
+            <h1>Comments</h1>
+            <hr>
+            <ol class="dotted">
+                @foreach (var comment in Model.Comments)
+                {
+                    <li><span>@(comment.Player) </span> @(comment.Comments)</li>
+                }
+            </ol>
+        </div>
+
+        <div class="green">
+            <h1>Top Rated</h1>
+            <hr>
+            <ol class="dotted">
+                @foreach (var star in Model.Stars)
+                {
+                    <li><span>@(star.Player)</span>     @(star.Stars)</li>
+                }
+            </ol>
+        </div>
+
+        <div class="blue">
+            <a href="../Home/Index">Back</a>
+        </div>
+    </div>
+
+
+</body>
+</html>

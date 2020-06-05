@@ -1,0 +1,154 @@
+/Users/yaroslav/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+/Users/yaroslav/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+/Users/yaroslav/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+/Users/yaroslav/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+/Users/yaroslav/Desktop/Pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+/Users/yaroslav/Desktop/Pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+/Users/yaroslav/Desktop/Pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+/Users/yaroslav/Desktop/Pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/Pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/Pexeso 2/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+/Users/yaroslav/Desktop/Pexeso 2/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+/Users/yaroslav/Desktop/Pexeso 2/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+/Users/yaroslav/Desktop/Pexeso 2/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+/Users/yaroslav/Desktop/Pexeso 2/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/Pexeso 2/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/Pexeso 2/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+/Users/yaroslav/Desktop/Pexeso 2/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+/Users/yaroslav/Desktop/Pexeso 2/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+/Users/yaroslav/Desktop/Pexeso 2/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/Pexeso 2/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/pexeso1/pexeso/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+/Users/yaroslav/Desktop/pexeso1/pexeso/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+/Users/yaroslav/Desktop/pexeso1/pexeso/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+/Users/yaroslav/Desktop/pexeso1/pexeso/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/pexeso1/pexeso/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/pexeso1/pexeso/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+/Users/yaroslav/Desktop/pexeso1/pexeso/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+/Users/yaroslav/Desktop/pexeso1/pexeso/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+/Users/yaroslav/Desktop/pexeso1/pexeso/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+/Users/yaroslav/Desktop/pexeso1/pexeso/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/pexeso1/pexeso/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/pexeso-master 2/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+/Users/yaroslav/Desktop/pexeso-master 2/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+/Users/yaroslav/Desktop/pexeso-master 2/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+/Users/yaroslav/Desktop/pexeso-master 2/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/pexeso-master 2/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+/Users/yaroslav/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+/Users/yaroslav/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+/Users/yaroslav/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+/Users/yaroslav/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.genruntimeconfig.cache
+C:/Users/user/Desktop/pexeso-master 2/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+C:/Users/user/Desktop/pexeso-master 2/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+C:/Users/user/Desktop/pexeso-master 2/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+C:/Users/user/Desktop/pexeso-master 2/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+C:/Users/user/Desktop/pexeso-master 2/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+C:/Users/user/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+C:/Users/user/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+C:/Users/user/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+C:/Users/user/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+C:/Users/user/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.genruntimeconfig.cache
+C:/Users/user/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+C:/Users/user/Desktop/pexeso-master 2/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+C:/Users/user/Desktop/pexeso-master 3/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+C:/Users/user/Desktop/pexeso-master 3/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+C:/Users/user/Desktop/pexeso-master 3/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+C:/Users/user/Desktop/pexeso-master 3/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+C:/Users/user/Desktop/pexeso-master 3/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+C:/Users/user/Desktop/pexeso-master 3/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+C:/Users/user/Desktop/pexeso-master 3/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+C:/Users/user/Desktop/pexeso-master 3/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+C:/Users/user/Desktop/pexeso-master 3/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+C:/Users/user/Desktop/pexeso-master 3/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+C:/Users/user/Desktop/pexeso-master 3/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+C:/Users/user/Desktop/pexeso-master 3/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.genruntimeconfig.cache
+C:/Users/user/Desktop/pexeso-master 3 — копия/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+C:/Users/user/Desktop/pexeso-master 3 — копия/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+C:/Users/user/Desktop/pexeso-master 3 — копия/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+C:/Users/user/Desktop/pexeso-master 3 — копия/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+C:/Users/user/Desktop/pexeso-master 3 — копия/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+C:/Users/user/Desktop/pexeso-master 3 — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+C:/Users/user/Desktop/pexeso-master 3 — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+C:/Users/user/Desktop/pexeso-master 3 — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+C:/Users/user/Desktop/pexeso-master 3 — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+C:/Users/user/Desktop/pexeso-master 3 — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+C:/Users/user/Desktop/pexeso-master 3 — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+C:/Users/user/Desktop/pexeso-master 3 — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.genruntimeconfig.cache
+/Users/yaroslav/Desktop/pexeso-master 3 — копия — копия/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+/Users/yaroslav/Desktop/pexeso-master 3 — копия — копия/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+/Users/yaroslav/Desktop/pexeso-master 3 — копия — копия/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+/Users/yaroslav/Desktop/pexeso-master 3 — копия — копия/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/pexeso-master 3 — копия — копия/PexesoGame/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/pexeso-master 3 — копия — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+/Users/yaroslav/Desktop/pexeso-master 3 — копия — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+/Users/yaroslav/Desktop/pexeso-master 3 — копия — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+/Users/yaroslav/Desktop/pexeso-master 3 — копия — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+/Users/yaroslav/Desktop/pexeso-master 3 — копия — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/pexeso-master 3 — копия — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/pexeso-master 3 — копия — копия/PexesoGame/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.genruntimeconfig.cache
+/Users/yaroslav/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.genruntimeconfig.cache
+/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/DotNet/pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.genruntimeconfig.cache
+C:/Users/user/Desktop/pexeso-master/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+C:/Users/user/Desktop/pexeso-master/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+C:/Users/user/Desktop/pexeso-master/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+C:/Users/user/Desktop/pexeso-master/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+C:/Users/user/Desktop/pexeso-master/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+C:/Users/user/Desktop/pexeso-master/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+C:/Users/user/Desktop/pexeso-master/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+C:/Users/user/Desktop/pexeso-master/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+C:/Users/user/Desktop/pexeso-master/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+C:/Users/user/Desktop/pexeso-master/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+C:/Users/user/Desktop/pexeso-master/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+C:/Users/user/Desktop/pexeso-master/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.genruntimeconfig.cache
+C:/Users/user/Desktop/Pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+C:/Users/user/Desktop/Pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+C:/Users/user/Desktop/Pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+C:/Users/user/Desktop/Pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+C:/Users/user/Desktop/Pexeso/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+C:/Users/user/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+C:/Users/user/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+C:/Users/user/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+C:/Users/user/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+C:/Users/user/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.genruntimeconfig.cache
+C:/Users/user/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+C:/Users/user/Desktop/Pexeso/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+/Users/yaroslav/Desktop/Pexeso 3/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+/Users/yaroslav/Desktop/Pexeso 3/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+/Users/yaroslav/Desktop/Pexeso 3/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+/Users/yaroslav/Desktop/Pexeso 3/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/Pexeso 3/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+/Users/yaroslav/Desktop/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+/Users/yaroslav/Desktop/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+/Users/yaroslav/Desktop/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+/Users/yaroslav/Desktop/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.genruntimeconfig.cache
+/Users/yaroslav/Desktop/projects/Pexeso 3/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.deps.json
+/Users/yaroslav/Desktop/projects/Pexeso 3/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.json
+/Users/yaroslav/Desktop/projects/Pexeso 3/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.runtimeconfig.dev.json
+/Users/yaroslav/Desktop/projects/Pexeso 3/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/projects/Pexeso 3/Pexeso/bin/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/projects/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csprojAssemblyReference.cache
+/Users/yaroslav/Desktop/projects/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.csproj.CoreCompileInputs.cache
+/Users/yaroslav/Desktop/projects/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfoInputs.cache
+/Users/yaroslav/Desktop/projects/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.AssemblyInfo.cs
+/Users/yaroslav/Desktop/projects/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.dll
+/Users/yaroslav/Desktop/projects/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.pdb
+/Users/yaroslav/Desktop/projects/Pexeso 3/Pexeso/obj/Debug/netcoreapp2.1/Pexeso.genruntimeconfig.cache

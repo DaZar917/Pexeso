@@ -1,0 +1,326 @@
+﻿@using Microsoft.AspNetCore.Http
+
+
+@{
+    ViewData["Title"] = "AddPlayer";
+}
+
+
+
+
+<script src="~/js/JavaScript.js"></script>
+
+<style>
+
+    body {
+        background: url("../images/addPlayer.jpg");
+        background-size: cover;
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+        display: block;
+    }
+
+
+    * {
+        box-sizing: border-box;
+    }
+
+
+    section {
+        background: rgba( 0,0,0,.6);
+        border-radius: 5px;
+        left: 50%;
+        padding: 40px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        margin-top: 370px;
+    }
+
+        section h2 {
+            color: #fff;
+            font-family: 'Caveat', sans-serif;
+            font-size: 30px;
+            margin: 0 0 30px;
+            padding: 0;
+            text-align: center;
+        }
+
+    h3 {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: white;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    section div {
+        position: relative;
+    }
+
+        section div input {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #fff;
+            color: #fff;
+            font-family: 'Caveat', sans-serif;
+            font-size: 20px;
+            letter-spacing: 1px;
+            margin-bottom: 30px;
+            padding: 10px 0;
+            outline: none;
+            width: 100%;
+        }
+
+        section div label {
+            color: #fff;
+            font-size: 22px;
+            left: 0;
+            letter-spacing: 1px;
+            padding: 10px 0;
+            position: absolute;
+            pointer-events: none;
+            top: 0;
+            transition: .5s;
+        }
+
+        section div input:focus ~ label,
+        section div input:valid ~ label {
+            color: #2d89ea;
+            font-size: 22px;
+            left: 0;
+            top: -22px;
+        }
+
+    .card {
+        background: url(../images/cards1/img23.jpg);
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 45px;
+        height: 70px;
+        border-radius: 10px;
+        border: 1px solid black;
+        margin: auto;
+    }
+
+    .card1 {
+        background: url(../images/cards2/img23.jpg);
+        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 45px;
+        height: 70px;
+        border-radius: 10px;
+        border: 1px solid black;
+        margin: auto;
+    }
+
+    div.card:hover {
+        opacity: 0.7;
+    }
+
+    section input[type="submit"] {
+        background: #2d89ea;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        font-family: 'Caveat', sans-serif;
+        font-size: 24px;
+        padding: 6px 28px;
+        outline: none;
+    }
+
+    button {
+        background: none;
+       
+        font-weight: bold;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        text-align: center;
+        border: 0;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+    }
+
+        button.yellow:hover {
+            color: yellow;
+        }
+
+    button {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: white;
+        text-decoration: none;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    a.red {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: white;
+        text-decoration: none;
+        font-size: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+        a.red:hover {
+            color: red;
+        }
+    input[type=range] {
+        -webkit-appearance: none;
+        width: 100%;
+        margin: 7.25px 0;
+    }
+
+        input[type=range]:focus {
+            outline: none;
+        }
+
+        input[type=range]::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 6.5px;
+            cursor: pointer;
+            box-shadow: 1.7px 1.7px 8.5px #000000, 0px 0px 1.7px #0d0d0d;
+            background: #ffff00;
+            border-radius: 25px;
+            border: 0.1px solid #000001;
+        }
+
+        input[type=range]::-webkit-slider-thumb {
+            box-shadow: 3.2px 3.2px 1px #000000, 0px 0px 3.2px #0d0d0d;
+            border: 0.5px solid #000000;
+            height: 21px;
+            width: 43px;
+            border-radius: 50px;
+            background: #5dff16;
+            cursor: pointer;
+            -webkit-appearance: none;
+            margin-top: -7.35px;
+        }
+
+        input[type=range]:focus::-webkit-slider-runnable-track {
+            background: #ffff99;
+        }
+
+        input[type=range]::-moz-range-track {
+            width: 100%;
+            height: 6.5px;
+            cursor: pointer;
+            box-shadow: 1.7px 1.7px 8.5px #000000, 0px 0px 1.7px #0d0d0d;
+            background: #ffff00;
+            border-radius: 25px;
+            border: 0.1px solid #000001;
+        }
+
+        input[type=range]::-moz-range-thumb {
+            box-shadow: 3.2px 3.2px 1px #000000, 0px 0px 3.2px #0d0d0d;
+            border: 0.5px solid #000000;
+            height: 21px;
+            width: 43px;
+            border-radius: 50px;
+            background: #5dff16;
+            cursor: pointer;
+        }
+
+        input[type=range]::-ms-track {
+            width: 100%;
+            height: 6.5px;
+            cursor: pointer;
+            background: transparent;
+            border-color: transparent;
+            color: transparent;
+        }
+
+        input[type=range]::-ms-fill-lower {
+            background: #666600;
+            border: 0.1px solid #000001;
+            border-radius: 50px;
+            box-shadow: 1.7px 1.7px 8.5px #000000, 0px 0px 1.7px #0d0d0d;
+        }
+
+        input[type=range]::-ms-fill-upper {
+            background: #ffff00;
+            border: 0.1px solid #000001;
+            border-radius: 50px;
+            box-shadow: 1.7px 1.7px 8.5px #000000, 0px 0px 1.7px #0d0d0d;
+        }
+
+        input[type=range]::-ms-thumb {
+            box-shadow: 3.2px 3.2px 1px #000000, 0px 0px 3.2px #0d0d0d;
+            border: 0.5px solid #000000;
+            height: 21px;
+            width: 43px;
+            border-radius: 50px;
+            background: #5dff16;
+            cursor: pointer;
+            height: 6.5px;
+        }
+
+        input[type=range]:focus::-ms-fill-lower {
+            background: #ffff00;
+        }
+
+        input[type=range]:focus::-ms-fill-upper {
+            background: #ffff99;
+        }
+    label {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color: white;
+        font-size: 70px;
+        text-align: center;
+    }
+</style>
+<section>
+
+    <form name="PlayerForm" asp-controller="Pexeso" asp-action="AddPlayer" method="post">
+        <h3>Singleplayer game</h3>
+
+        <div class="row">
+            <div class="col-md" style="text-align: center; justify-content:center;">
+                <div class="name" style="margin: 20%; margin-left: 10%">
+                    <label for="name" style="font-size: 24px; ">Your name:</label><br><br>
+                    <input type="text" name="name" id="name" size="32" title="max. 32 characters" value="John" required spellcheck="true" lang="en" autocomplete="on"
+                           placeholder="Hero" /><br>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="text-align: center; justify-content:center;">
+            <h3 style="text-align: center; justify-content: center;">Print on the backside</h3>
+        </div>
+        <div class="row">
+
+            <div class="col-md">
+                <div class="card" style="text-align: center; justify-content:center;">
+                    <input class="radio-input card" id="star-1" type="radio" name="print" value="1" checked />
+                    <label class="radio-label" title="poor" for="star-1"></label>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card1">
+                    <input class="radio-input card" id="star-0" type="radio" name="print" value="2" />
+                    <label class="radio-label" title="bad" for="star-0"></label>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row" style="text-align: center; justify-content:center;">
+            <label for="size" style="font-size: 24px; text-align: center; justify-content:center;">Size of map:</label><br><br><br><br><br>
+            <input class="sl" type="range" min="2" max="24" step="2" id="board" name="size" value="4">
+        </div>
+
+
+        <div class="row ">
+            <div class="col-md">
+                <button class="yellow" type="submit">Submit</button>
+            </div>
+            <div class="col-md">
+                <a class="red" href="../Pexeso/SingleMode">Start</a>
+            </div>
+        </div>
+    </form>
+</section>
+

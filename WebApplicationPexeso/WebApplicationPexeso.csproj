@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Pexeso\Index.cshtml" />
+    <Content Remove="wwwroot\images\wp.jpg" />
+    <Content Remove="Views\Pexeso\Win.cshtml" />
+    <Content Remove="Views\Pexeso\Win21.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pexeso\Pexeso.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Новая папка\Новая папка\" />
+    <Folder Include="wwwroot\images\cards2\" />
+  </ItemGroup>
+
+</Project>

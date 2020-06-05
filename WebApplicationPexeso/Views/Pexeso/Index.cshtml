@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Pexeso</h1>
+
+
+
+<a href="/Pexeso/Index">New Game</a>
+<br />
+
+Solved: @(Model.Field.IsSolved())
+<br />
+Message: @(Model.Message)
+<br />
+Scores:
+<br />
+
+<ol>
+    @foreach (var score in Model.Times)
+    {
+        <li>@(score.Player) @(score.TimeInSeconds)</li>
+    }
+</ol>
+
+<table class="field">
+
+   
+    @for (var row = 0; row < Model.Field.MapSize; row++)
+    {
+    <tr>
+        @for (var column = 0; column < Model.Field.MapSize; column++)
+        {
+            var tile = Model.Field.Cells[row, column];
+
+        <td>
+        <a href="/Pexeso/Move?tile=@(tile.Value)" >
+            <img src="~/images/cards/img@((int)tile.Value-65).jpg" style="width: 75px; height: 100px; border-radius: 5px; border: 1px solid black;" />
+            </a>
+
+        </td>
+         }
+    </tr>
+    }
+
+
+
+</table>
+
+<br />
+
+

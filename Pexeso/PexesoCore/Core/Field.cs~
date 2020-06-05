@@ -1,0 +1,190 @@
+using System;
+using System.Linq;
+using System.Threading;
+using Pexeso.PexesoUI;
+
+namespace Pexeso.PexesoCore.Core
+{
+    [Serializable]
+    public class Field
+    {
+        private char[,] _charTable;
+
+        public int[,] Map { get; private set; }
+        public int MapSize { get; private set; }
+
+
+        public Player player;
+        public int print = 0;
+        public int _firstCardX = -1;
+        public int _firstCardY = -1;
+        public int _secondCardY = -1;
+        public int _secondCardX = -1;
+        private string username;
+
+        readonly Ui _ui = new Ui();
+        public Cell[,] Cells
+        {
+            get => _objectMap;
+            private set => _objectMap = value;
+        }
+        private Cell[,] _objectMap;
+
+
+        public void Players(string username, int print, int size)
+        {
+            this.username = username;
+            this.print = print;
+            MapSize = size;
+            if(MapSize != 2 || MapSize != 4 || MapSize != 6)
+            {
+                MapSize = 4;
+            }
+
+        }
+
+        public void CreateMap(int size) {
+            _charTable = new char[size, size];
+            var table = new int[size, size];
+            _objectMap = new Cell[size, size];
+            LoadRandomMap(size, table);
+            GenerateSecretMap(size);
+            Map = table;
+            MapSize = size;
+            GetObjectMap();
+        }
+
+        public bool IsSolved()
+        {
+            for (var i = 0; i < MapSize; i++)
+            {
+                for (var j = 0; j < MapSize; j++)
+                {
+                    if (Map[i, j] != -1)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        public void CreateMaps()
+        {
+            Console.Write("Enter a size of your pexeso ( min 2 | max 10 ): ");
+            int size = Ui.CheckInt();
+            while (size < 2 || size > 10 || size%2 == 1 )
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write("Enter a size of your pexeso ( min 2 | max 10 !!!Only even numbers!!!): ");
+                Console.ResetColor();
+                size = Ui.CheckInt();
+            }
+            _charTable = new char[size,size];
+            var table = new int[size, size];
+            _objectMap = new Cell[size,size];
+            LoadRandomMap(size,table);
+            GenerateSecretMap(size);
+            Map = table;
+            MapSize = size;
+            GetObjectMap();
+            Console.WriteLine("Your table:");
+            LoadingScreen();
+            Console.WriteLine();
+        }
+
+
+        private void LoadRandomMap(int size, int[,] table)
+        {
+
+            int sizeForDoubleArray = (size * size) / 2;
+            var nums = Enumerable.Range(1, sizeForDoubleArray).ToList();
+            int[] randomArray = new int[sizeForDoubleArray];
+            Random rand = new Random();
+            for (int i = 0; i < sizeForDoubleArray; i++)
+            {
+                int pos = rand.Next(0, nums.Count);
+                randomArray[i] = nums[pos];
+                nums.RemoveAt(pos);
+            }
+            Console.WriteLine();
+            var nums2 = Enumerable.Range(1, sizeForDoubleArray).ToList();
+            int[] randomArray2 = new int[sizeForDoubleArray];
+            Random rand2 = new Random();
+            for (int i = 0; i < sizeForDoubleArray; i++)
+            {
+                int pos = rand2.Next(0, nums2.Count);
+                randomArray2[i] = nums2[pos];
+                nums2.RemoveAt(pos);
+            }
+            Console.WriteLine();
+            for (var i = 0; i < size; i++)
+                for (var j = 0; j < size; j ++)
+                {
+                    table[i, j] = 0;
+                }
+            for (var i = 0; i < size/2; i++)
+            for (var j = 0; j < size; j++)
+                table[i, j] = randomArray[j+(i*size)];
+            for (var i = size/2; i < size; i++)
+            for (var j = 0; j < size; j++)
+            {
+                table[i, j] = randomArray2[j+((i-(size/2))*size)];
+            }
+            Map = new int[size, size];
+            for (var i = 0; i < size; i++)
+                for (var j = 0; j < size; j++)
+                    Map[i, j] = table[i, j];
+
+        }
+
+        private void LoadingScreen()
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("-------------Pexeso-------------");
+            Console.ResetColor();
+            Console.Write("Loading...");
+            for (int i = 0; i < 22; i++)
+            {
+                Console.Write(".");
+                Thread.Sleep( 100);
+            }
+            Console.WriteLine();
+        }
+
+        private void GenerateSecretMap(int size)
+        {
+            for (var i = 0; i < size; i++)
+                for (var j = 0; j < size; j++)
+                    _charTable[i, j] = 'X';
+                   // _charTable[i, j] =(Char)( Map[i, j] + 65);
+        }
+
+        private void GetObjectMap()
+        {
+            Cells = new Cell[MapSize,MapSize];
+            for (int i = 0; i < MapSize; i++)
+            {
+                for (int j = 0; j < MapSize; j++)
+                {
+                    _objectMap[i, j] = new Cell(_charTable[i,j]);
+                }
+            }
+        }
+
+        public static bool CheckMap(int[,] toCheck,int size)
+        {
+            for (var i = 0; i < size; i++)
+            {
+                for (var j = 0; j < size; j++)
+                {
+                    if (toCheck[i, j] != -1)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+    }
+}
